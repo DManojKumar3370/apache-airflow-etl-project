@@ -1,0 +1,103 @@
+id	name	age	city	salary	join_date
+1	John Doe	28	New York	55000.5	3/15/2022
+2	Jane Smith	35	San Francisco	75000	7/22/2021
+3	Mike Johnson	42	Chicago	68000.75	11/10/2020
+4	Sarah Williams	29	Boston	62000.25	1/5/2023
+5	Tom Brown	51	Seattle	85000	6/12/2019
+6	Emily Davis	26	Austin	48000	9/20/2023
+7	Chris Wilson	38	Denver	71000.5	2/14/2021
+8	Lisa Anderson	44	Portland	78000.75	11/30/2018
+9	David Martinez	32	Miami	65000	5/17/2022
+10	Jennifer Taylor	27	Atlanta	54000.25	4/8/2023
+11	Robert Garcia	48	Phoenix	82000	8/22/2017
+12	Maria Rodriguez	31	LA	70000.5	12/10/2021
+13	James Lee	39	Houston	72000.75	3/25/2020
+14	Patricia White	45	Philadelphia	79000	1/18/2019
+15	Michael Harris	33	San Diego	68000.25	7/9/2022
+16	Linda Martin	28	Dallas	58000	2/28/2023
+17	William Thompson	41	San Jose	75000.5	10/15/2021
+18	Barbara Jackson	52	Austin	88000.75	9/3/2016
+19	David White	29	Jacksonville	60000	6/12/2023
+20	Susan Harris	36	Fort Worth	72000.25	4/20/2021
+21	Richard Martin	43	Columbus	76000.5	8/7/2020
+22	Jessica Garcia	25	Charlotte	51000	11/22/2023
+23	Joseph Rodriguez	37	San Antonio	69000.75	9/30/2021
+24	Dorothy Martinez	50	Memphis	84000	5/14/2018
+25	Thomas Lopez	30	Boston	64000.25	2/25/2022
+26	Marie Hernandez	26	El Paso	53000	3/10/2023
+27	Charles Young	47	Denver	80000.5	7/18/2019
+28	Diane King	34	Washington	71000.75	1/12/2022
+29	Christopher Scott	40	Boston	74000	10/28/2020
+30	Julie Green	28	Las Vegas	59000.25	5/3/2023
+31	Daniel Adams	44	Memphis	77000.5	4/22/2019
+32	Joyce Nelson	31	Louisville	65000	8/16/2022
+33	Matthew Carter	35	Baltimore	68000.75	3/20/2021
+34	Beverly Mitchell	53	Milwaukee	90000	2/9/2017
+35	Anthony Roberts	32	Albuquerque	67000.25	6/11/2022
+36	Diane Phillips	27	Tucson	56000	7/25/2023
+37	Mark Campbell	46	Fresno	79000.5	12/5/2019
+38	Janice Parker	41	Long Beach	75000.75	5/19/2020
+39	Donald Evans	33	Kansas City	70000	9/2/2022
+40	Katherine Edwards	29	Mesa	61000.25	8/14/2023
+41	Steven Collins	48	Virginia Beach	83000.5	3/27/2018
+42	Christine Stewart	36	Atlanta	73000.75	11/8/2021
+43	Paul Sanchez	39	Oakland	72000	1/13/2021
+44	Donna Morris	50	Miami	86000.25	10/21/2018
+45	Andrew Rogers	28	Cleveland	57000	4/30/2023
+46	Carol Reed	25	New Orleans	49000.5	12/9/2023
+47	Joshua Cook	45	Arlington	78000.75	9/17/2019
+48	Melissa Morgan	43	Chicago	77000	2/24/2020
+49	Kevin Peterson	31	Austin	66000.25	11/3/2022
+50	Deborah Gray	26	Detroit	52000	10/16/2023
+51	Brian Ramirez	47	Memphis	81000.5	6/12/2018
+52	Stephanie James	37	Boston	71000.75	8/5/2021
+53	Edward Watson	34	Nashville	69000	4/18/2022
+54	Shirley Brooks	52	New York	92000.25	1/10/2017
+55	Ronald Chavez	30	Las Vegas	63000	1/22/2023
+56	Angela Kelly	27	Louisville	55000.5	9/8/2023
+57	Timothy Sanders	44	Baltimore	76000.75	11/20/2019
+58	Helen Bennett	41	Milwaukee	74000	7/14/2020
+59	Jason Wood	36	Albuquerque	72000.25	5/26/2021
+60	Brenda Barnes	28	Tucson	59000	2/12/2023
+61	Jeffrey Ross	48	Fresno	84000.5	4/9/2018
+62	Amy Henderson	43	Long Beach	78000.75	9/23/2020
+63	Ryan Coleman	32	Kansas City	68000	3/28/2022
+64	Diane Jenkins	29	Mesa	62000.25	6/15/2023
+65	Jacob Perry	46	Virginia Beach	80000.5	8/1/2019
+66	Evelyn Powell	35	Atlanta	70000.75	10/12/2021
+67	Gary Long	39	Oakland	73000	2/19/2021
+68	Joan Patterson	51	Miami	87000.25	11/7/2018
+69	Nicholas Hughes	27	Cleveland	54000	7/30/2023
+70	Jean Flores	26	New Orleans	50000.5	11/18/2023
+71	Eric Washington	45	Arlington	79000.75	10/25/2019
+72	Abigail Butler	44	Chicago	76000	1/31/2020
+73	Stephen Simmons	33	Austin	67000.25	12/8/2022
+74	Alice Foster	25	Detroit	51000	1/2/2024
+75	Larry Bryant	49	Memphis	85000.5	5/16/2018
+76	Anna Alexander	38	Boston	72000.75	9/4/2021
+77	Justin Russell	35	Nashville	70000	5/20/2022
+78	Mary Griffin	53	New York	93000.25	2/14/2017
+79	Scott Hayes	31	Las Vegas	64000	2/28/2023
+80	Mildred Myers	28	Louisville	56000.5	10/12/2023
+81	Brandon Ford	47	Baltimore	81000.75	12/9/2019
+82	Kathryn Hamilton	42	Milwaukee	75000	6/22/2020
+83	Benjamin Graham	37	Albuquerque	71000.25	4/30/2021
+84	Diane Sullivan	27	Tucson	58000	3/14/2023
+85	Samuel Wallace	48	Fresno	82000.5	7/21/2018
+86	Helen Woods	44	Long Beach	79000.75	8/26/2020
+87	Frank Benson	34	Kansas City	69000	2/9/2022
+88	Janice Donovan	30	Mesa	63000.25	7/3/2023
+89	Gary Wilkinson	46	Virginia Beach	79000.5	9/11/2019
+90	Ruth Gibbons	36	Atlanta	71000.75	11/19/2021
+91	Joe Bennett	40	Oakland	74000	3/22/2021
+92	Paula Shelton	49	Miami	88000.25	12/8/2018
+93	Peter Bates	28	Cleveland	55000	8/27/2023
+94	Gloria Barker	26	New Orleans	51000.5	1/5/2024
+95	Zachary Soto	45	Arlington	80000.75	11/14/2019
+96	Ann Maldonado	43	Chicago	77000	3/18/2020
+97	Jack Cobb	32	Austin	68000.25	10/22/2022
+98	Phyllis Ramirez	24	Detroit	50000	2/1/2024
+99	Ryan Sutton	50	Memphis	86000.5	6/19/2018
+100	Wanda Hutchison	39	Boston	73000.75	8/14/2021
+101	Albert Woods	35	Nashville	71000	6/25/2022
+102	Katherine Shepard	54	New York	95000.25	3/11/2017

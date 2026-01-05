@@ -1,0 +1,75 @@
+# Airflow
+airflow.db
+airflow-webserver.pid
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Docker
+.dockerignore
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Output files
+output/*.parquet
+output/*.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
