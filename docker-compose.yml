@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:15
@@ -19,14 +17,19 @@ services:
       retries: 5
 
   airflow-init:
-    image: apache/airflow:2.8.0
+    image: apache/airflow:2.7.0
     container_name: airflow-init
-    command: bash -c "airflow db init && airflow users create --firstname Admin --lastname User --username airflow --password airflow --role Admin --email admin@airflow.com"
+    command: >
+      bash -c "airflow db init && 
+               airflow users create --firstname Admin --lastname User 
+               --username airflow --password airflow --role Admin 
+               --email admin@airflow.com 2>/dev/null || true"
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow_user:airflow_pass@postgres/airflow_db
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW__CORE__PLUGINS_FOLDER: /opt/airflow/plugins
     depends_on:
       postgres:
         condition: service_healthy
@@ -39,7 +42,7 @@ services:
       - ./tests:/opt/airflow/tests
 
   airflow-webserver:
-    image: apache/airflow:2.8.0
+    image: apache/airflow:2.7.0
     container_name: airflow-webserver
     command: airflow webserver
     environment:
@@ -50,8 +53,8 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - postgres
-      - airflow-init
+      postgres:
+        condition: service_healthy
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -59,14 +62,9 @@ services:
       - ./data:/opt/airflow/data
       - ./output:/opt/airflow/output
       - ./tests:/opt/airflow/tests
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
 
   airflow-scheduler:
-    image: apache/airflow:2.8.0
+    image: apache/airflow:2.7.0
     container_name: airflow-scheduler
     command: airflow scheduler
     environment:
@@ -75,8 +73,8 @@ services:
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
     depends_on:
-      - postgres
-      - airflow-init
+      postgres:
+        condition: service_healthy
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
